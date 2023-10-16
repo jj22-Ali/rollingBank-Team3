@@ -45,3 +45,7 @@ main{
     max-width: 100%;
     height: auto;
 }
+
+.colorNav{
+    background-color: #f8f9fa;
+}
