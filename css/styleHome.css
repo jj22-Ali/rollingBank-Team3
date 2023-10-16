@@ -35,4 +35,19 @@ main{
 }
 .segurit{
     font-family: 'Black Han Sans';
+
+
+.contenedorError404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.gif404 {
+    max-width: 100%;
+    height: auto;
+}
+
+.colorNav{
+    background-color: #f8f9fa;
 }
