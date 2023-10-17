@@ -1,0 +1,73 @@
+.titulo {
+    font-family: 'Black Han Sans';
+    font-size: 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+#alturaImgCarousel {
+    height: 550px;
+    object-fit: cover;
+}
+
+.emojiTamano {
+
+    font-size: 50px;
+
+}
+
+.boxShadowCards {
+
+    box-shadow: 5px 5px 12px rgb(167, 164, 164);
+
+}
+
+#esperandoRolling {
+
+    font-size: 50px;
+
+}
+
+.segurit {
+    font-family: 'Black Han Sans';
+}
+
+.contenedorError404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gif404 {
+    max-width: 100%;
+    height: auto;
+}
+
+.colorNav {
+    background-color: #f8f9fa;
+}
+
+
+@media screen and (min-width: 280px){
+    .nonenone{
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (min-width: 760px){
+    .nonenone{
+        display: block;
+    }
+}
